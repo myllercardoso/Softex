@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Cadastro dos alunos</h2>
+
+    <label for="">Nome do aluno</label>
+    <input id="nomeAluno" type="text" placeholder="Digite o seu nome">
+
+    <label for="">Nota1</label>
+    <input id="nota1" type="number">
+    <label for="">Nota2</label>
+    <input id="nota2" type="number">
+    <label for="">Nota3</label>
+    <input id="nota3" type="number">
+
+    <button id="btnAdicionar" >Adicionar aluno</button>
+    
+    <table id="tabelaAlunos" style="display: none;">
+    <caption><strong>Lista de Alunos Cadastrados</strong></caption>    
+        <thead>
+            <tr>
+                <th>Aluno</th>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <th>Nota 3</th>
+                <th>Média</th>
+                <th>Situação</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
